@@ -1,9 +1,10 @@
 function t1(table){
-var ele=document.createElement(table)
-ele.setAttribute("class","table")
-ele.style.borderCollapse = "collapse";
-return ele
-}
+    var ele=document.createElement(table)
+    ele.setAttribute("class","table")
+    ele.style.border = "1px solid black";
+    ele.style.borderCollapse = "collapse"; 
+    return ele
+  }
 function tr1(tr){
 var ele=document.createElement(tr)
 return ele
@@ -12,18 +13,21 @@ function th1(th1,atn,atv,content){
     var ele=document.createElement(th1)
     ele.setAttribute(atn,atv)
     ele.innerHTML=content
+    ele.style.border = "1px solid black";
     return ele
 }
     function th2(th1,atn,atv,content){
         var ele=document.createElement(th1)
         ele.setAttribute(atn,atv)
         ele.innerHTML=content
+        ele.style.border = "1px solid black";
         return ele
         }
         function th3(th1,atn,atv,content){
             var ele=document.createElement(th1)
             ele.setAttribute(atn,atv)
             ele.innerHTML=content
+            ele.style.border = "1px solid black";
             return ele
         }
             function tr2(tr2){
@@ -33,6 +37,7 @@ function th1(th1,atn,atv,content){
             function td1(tn,content){
               var ele=document.createElement(tn)
               ele.innerHTML=content
+              ele.style.border = "1px solid black";
               return ele
             }
             function breaker(br){
@@ -42,11 +47,13 @@ function th1(th1,atn,atv,content){
             function td2(tn,content){
                 var ele=document.createElement(tn)
                 ele.innerHTML=content
+                ele.style.border = "1px solid black";
                 return ele
             }
             function td3(tn,content){
                 var ele=document.createElement(tn)
                 ele.innerHTML=content
+                ele.style.border = "1px solid black";
                 return ele
             }
             
