@@ -1,3 +1,5 @@
+
+
 function t1(table){
     var ele=document.createElement(table)
     ele.setAttribute("class","table")
@@ -56,7 +58,6 @@ function th1(th1,atn,atv,content){
                 ele.style.border = "1px solid black";
                 return ele
             }
-            
 var br1=breaker("br")
  var col1=th1("th","scope","col","First") 
  var col2=th2("th","scope","col","Last") 
